@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Figmabackground.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.navbar {
+    background-color: #100340;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.nav-pills li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+span{
+    font-size: clamp(11px, 2.5vw, 18px);
+}
+
+.Jroom{
+    font-weight: bold;
+    height: 33px;
+    width: 80px;
+}
+.username{
+    font-weight: bold;
+    font-size: clamp(12px, 2.5vw, 21px);
+}
+.acct{
+    font-size: clamp(10px, 2.5vw, 17px);
+}
+
+.subject{
+    background-color: #100340;
+    height: 80px;
+    border-radius: 0 0 100px 100px;
+}
+
+.fa-ellipsis-vertical{
+    width: 30px;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+
+@media only screen and (min-width: 992px){
+    .sidebar{
+        min-width: 260px;
+    }
+}
